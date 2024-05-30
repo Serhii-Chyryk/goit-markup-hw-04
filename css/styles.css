@@ -460,10 +460,11 @@ ol {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #ffff;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .footer-icons-link {
@@ -489,6 +490,11 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container-footer-media {
+.item-footer {
   display: flex;
+  align-items: baseline;
+}
+
+.paragraf {
+  margin-right: 120px;
 }
