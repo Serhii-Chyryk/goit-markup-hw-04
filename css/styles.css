@@ -74,6 +74,8 @@ body {
 .contacts .contacts-info:hover,
 .contacts .contacts-info:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts .contacts-info {
@@ -205,6 +207,8 @@ ol {
 .menu-list-first:hover,
 .menu-list-first:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu {
