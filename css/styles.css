@@ -393,6 +393,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #f4f4fd;
 }
 
 .icons-list {
@@ -462,8 +463,6 @@ ol {
   letter-spacing: 0.02em;
   color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 16px;
 }
 
@@ -475,6 +474,7 @@ ol {
   height: 40px;
   border-radius: 50%;
   background: #4d5ae5;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons-list {
@@ -484,7 +484,8 @@ ol {
   gap: 16px;
 }
 
-.footer-icons-link:hover {
+.footer-icons-link:hover,
+.footer-icons-link:focus {
   background: #31d0aa;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
