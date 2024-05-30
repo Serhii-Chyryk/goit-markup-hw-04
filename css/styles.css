@@ -474,7 +474,6 @@ ol {
   height: 40px;
   border-radius: 50%;
   background: #4d5ae5;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icons-list {
@@ -498,4 +497,8 @@ ol {
 
 .paragraf {
   margin-right: 120px;
+}
+
+.footer-li {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
