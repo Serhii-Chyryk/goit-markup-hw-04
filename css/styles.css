@@ -41,7 +41,6 @@ body {
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #404bbf;
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
@@ -49,7 +48,7 @@ body {
   cursor: pointer;
 }
 
-.button-blue:focus {
+.button-blue:hover {
   background-color: #404bbf;
 }
 
@@ -289,7 +288,7 @@ ol {
     url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .section-desk {
@@ -381,12 +380,29 @@ ol {
 
 .section-list-icons {
   fill: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.icons-wrap {
+.icons-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-bottom: 32px;
+  margin-top: 8px;
+}
+
+.icons-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
+}
+
+.icons-link:hover {
+  background: #404bbf;
 }
