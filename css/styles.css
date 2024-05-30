@@ -48,7 +48,8 @@ body {
   cursor: pointer;
 }
 
-.button-blue:hover {
+.button-blue:hover,
+.button-blue:focus {
   background-color: #404bbf;
 }
 
@@ -406,3 +407,5 @@ ol {
 .icons-link:hover {
   background: #404bbf;
 }
+
+/* размер самой иконки писать в хтмл через виз и хейт */
