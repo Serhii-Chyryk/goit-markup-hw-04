@@ -486,8 +486,8 @@ ol {
 .footer-icons-link:hover,
 .footer-icons-link:focus {
   background: #31d0aa;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: ;
+  transition-timing-function: ;
 }
 
 .item-footer {
@@ -495,10 +495,6 @@ ol {
   align-items: baseline;
 }
 
-.paragraf {
+.footer-title {
   margin-right: 120px;
-}
-
-.footer-li {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
