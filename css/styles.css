@@ -97,7 +97,7 @@ body {
 }
 
 .contacts-li {
-  transition: #404bbf 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -116,7 +116,8 @@ body {
 header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* Defolt styles off */
@@ -205,7 +206,7 @@ ol {
 }
 
 .menu-list-line {
-  transition: #404bbf 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-list:hover,
@@ -308,6 +309,7 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 
 .section-desk {
