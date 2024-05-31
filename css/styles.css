@@ -63,6 +63,10 @@ body {
   font-style: normal;
 }
 
+.contacts-info {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .contacts .contacts-info {
   font-weight: 400;
   font-size: 16px;
@@ -205,7 +209,7 @@ ol {
   display: flex;
 }
 
-.menu-li {
+.menu-list-line {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
