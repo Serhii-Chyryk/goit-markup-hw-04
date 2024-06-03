@@ -473,7 +473,7 @@ ol {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-img:hover .overlay-text {
+.portfolio-list:hover .overlay-text {
   transform: translateX(0);
 }
 
